@@ -1,0 +1,7 @@
+JavaScript:
+
+Linguagem de script - pode ser executada em tempo real
+Client Side : É executado do lado do cliente(usuário)
+Pode interagir com elementos de uma pagina HTML
+
+DOM - Documento que o navegador carrega ao carregar a pagina. Com isso o JavaScript consegue alterar tanto o HTML, como o CSS
