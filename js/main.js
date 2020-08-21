@@ -36,3 +36,27 @@ console.log(fruta.cor);
 console.log(frutas);
 console.log(frutas[1].cor);
 //alert(frutas[0].nome);
+
+//bota uma pergunta pro usuário responder
+var idade = prompt("Qual sua Idade?")
+if(idade >= 18){
+    alert("Maior de Idade");
+}else{
+    alert("Menor de Idade");
+}
+
+var cont = 0;
+while (cont <= 5){
+    console.log(cont);
+    cont++;
+}
+
+var i;
+for(i=0;i<=5;i++){
+    alert(i);
+}
+
+//traz a data atual
+var d = new Date();
+alert(d);
+alert(d.getDay);
