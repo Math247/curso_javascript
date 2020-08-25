@@ -38,6 +38,7 @@ console.log(frutas[1].cor);
 //alert(frutas[0].nome);
 
 //bota uma pergunta pro usuário responder
+/*
 var idade = prompt("Qual sua Idade?")
 if(idade >= 18){
     alert("Maior de Idade");
@@ -83,3 +84,34 @@ function validaIdade(idade3){
 
 var idade = prompt("Qual a sua idade?");
 console.log(validaIdade(idade3));
+*/
+
+function botao(){
+    //alert("Valeu por clicar");
+    //pega o elemento pelo id, e insere um html com o inner
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por Clicar</b>";
+}
+function redirecionar(){
+    //formas para redirecionar para outra pagina web
+    window.open("https://www.google.com.br/?safe=active");
+    window.location.href = "https://www.google.com.br/?safe=active";
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    //alert("trocar texto");
+    elemento.innerHTML = "Obrigado por passar o mouse!"
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!";
+    elemento.innerHTML = "Passe o mouse aqui!"
+}
+
+function load(){
+    alert("Pagina carrega!");
+}
+
+function change(elemento){
+    console.log(elemento.value);
+}
