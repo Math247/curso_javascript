@@ -60,3 +60,26 @@ for(i=0;i<=5;i++){
 var d = new Date();
 alert(d);
 alert(d.getDay);
+
+function soma(n1, n2){
+    return n1+n2;
+}
+
+function setReplace(frase, nome, novo_nome){
+   return frase.replace(nome, novo_nome);
+}
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+alert(soma(5,10));
+
+function validaIdade(idade3){
+    var validar = true;
+    if (idade3 >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual a sua idade?");
+console.log(validaIdade(idade3));
